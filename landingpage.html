@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #495057;
+            line-height: 1.6;
+        }
+
+        header, footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 70vh;
+            padding: 2em;
+        }
+
+        .column {
+            flex: 1;
+            margin: 1em;
+            padding: 2em;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-sizing: border-box;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .column:hover {
+            transform: scale(1.05);
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3em;
+        }
+
+        .feature {
+            flex: 1;
+            text-align: center;
+            padding: 1em;
+            background-color: #007bff;
+            color: #ffffff;
+            border-radius: 8px;
+            margin: 0 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Creative Landing Page</h1>
+        <p>Shivakumar Welcomes you to a world of creativity!</p>
+    </header>
+
+    <section>
+        <div class="column">
+            <h2>Free Plan</h2>
+            <p><b>Rs.0/-per month</b></p>
+            <p><b>1 member/user</b></p>
+            <p><b>2GB cloud storage</b></p>
+            <P><b>Email support</b></P>
+            <p><b>Help Center access</b></p>
+            <button>Sign up</button>
+        </div>
+
+        <div class="column">
+            <h2>Pro</h2>
+            <p><b>Rs.799/-per month</b></p>
+            <p><b>5 members/users</b></p>
+            <p><b>10GB cloud storage</b></p>
+            <p><b>Priority email support</b></p>
+            <p><b>Help Center access</b></p>
+            <button>Click to Buy</button>
+        </div>
+
+        <div class="column">
+            <h2>Premium++</h2>
+            <p><b>Rs.2,100/- per month</b></p>
+            <p><b>25 members/users</b></p>
+            <p><b>50GB cloud storage</b></p>
+            <p><b>Priority email and call support</b></p>
+            <p><b>Help center access and 24/7 personalised team support</b></p>
+            <button>Click to Buy</button>
+        </div>
+    </section>
+    
+
+    <section class="features">
+        <div class="feature">
+            <h2>Feature 1</h2>
+            <p>The generative AI will get your work done in no time.</p>
+            <p>Our product is useful for genrating creative ideas,helps in brainstorming,drafing content</p>
+        </div>
+    <div class="feature">
+        <h2>Feature 2</h2>
+        <p>Highlight Features of Generative AI: Versatility,Natural Language Understanding,Learning and Assistance,Writing Assistance,Programming Help
+        </p>
+    </div>
+
+        
+        <div class="feature">
+            <h2>Feature 3</h2>
+            <p>Our AI model is pre-trained on a diverse dataset containing a wide range of internet text and learns patterns,context and information from  this extensive traning set,enabling it to generate training responses to a variety of inputs</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
